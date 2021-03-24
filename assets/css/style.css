@@ -1,0 +1,115 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1E1E1E;
+}
+
+.main {
+    margin-left: 290px;
+    padding-top: 2em;
+    background-color: #1E1E1E;
+    color: white;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.sidebar {
+    padding-top: 2em;
+    position: fixed;
+    width: 290px;
+    height: 100%;
+    background-color: #252526;
+
+    color: white;
+    padding-left: 10px;
+}
+
+.sidebar a {
+    color: white;
+    padding-left: 20px;
+}
+
+.sidebar p {
+    background-color: #252526;
+}
+
+.merah {
+    color: #D15036;
+}
+
+.biru {
+    color: #358CD6;
+}
+
+.kuning {
+    color: #FFC813;
+}
+
+.magenta {
+    color: #4EC9B0;
+}
+
+.separator {
+    font-size: 30px;
+    color: #4EC9B0;
+    text-align: center;
+}
+
+.lightmagenta {
+    color: #8CDCDA;
+}
+
+.cokelat {
+    color: #CE9178;
+}
+
+.putih {
+    color: white;
+}
+
+a:link {
+    color: #D15036;
+}
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: #D15036 .7;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+}
+
+/* UX STUDY CASES */
+.CaseSidebar {
+    padding-top: 2em;
+    position: fixed;
+    width: 180px;
+    height: 100%;
+    background-color: #252526;
+    color: white;
+    padding-left: 10px;
+    top: 0;
+    left: 0;
+}
+
+.CaseMain {
+    margin-left: 180px;
+    padding-top: 2em;
+    background-color: #1E1E1E;
+    color: white;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.CaseSidebar a {
+    color: white;
+    padding-left: 20px;
+    background-color: #252526;
+}
+
+.CaseSidebar p {
+    background-color: #252526;
+}
